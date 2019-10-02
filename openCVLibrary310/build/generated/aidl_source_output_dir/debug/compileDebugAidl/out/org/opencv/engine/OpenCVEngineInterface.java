@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\ZZZZZ\\Android Studio\\Code\\AndroidOpenCV\\openCVLibrary310\\src\\main\\aidl\\org\\opencv\\engine\\OpenCVEngineInterface.aidl
+ * Original file: D:\\ZZZZZ\\Android Studio\\Code\\Android-Object-Detection\\openCVLibrary310\\src\\main\\aidl\\org\\opencv\\engine\\OpenCVEngineInterface.aidl
  */
 package org.opencv.engine;
 /**
