@@ -22,16 +22,16 @@ INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrar
 		INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
 		INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:5-47
-INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:5-47
-INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:5-47
-INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:5-47
-INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:5-47
+INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
+INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
+INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
+INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		ADDED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:15-44
 		INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
+		ADDED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
 		INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
-		ADDED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml:7:5-47
+		ADDED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml
 		INJECTED from D:\ZZZZZ\Android Studio\Code\Android-Object-Detection\openCVLibrary310\src\main\AndroidManifest.xml

@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        setContentView(R.layout.show_camera);
+        setContentView(R.layout.activity_main);
 
         mOpenCvCameraView = (JavaCameraView) findViewById(R.id.show_camera_activity_java_surface_view);
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
     private MenuItem mItemSwitchCamera = null;
 
     // These variables are used to fix camera orientation from 270degree to 0degree
-    Mat mRgba;
+    Mat mRgba,mGrey;
     Mat mRgbaF;
     Mat mRgbaT;
 
@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
     public void onCameraViewStarted(int width, int height) {
 
+        mGrey = new Mat(height, width, CvType.CV_8UC4);
         mRgba = new Mat(height, width, CvType.CV_8UC4);
         mRgbaF = new Mat(height, width, CvType.CV_8UC4);
         mRgbaT = new Mat(width, width, CvType.CV_8UC4);
@@ -104,18 +105,27 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
 
+        mGrey = inputFrame.gray();
         mRgba = inputFrame.rgba();
-        // Rotate mRgba 90 degrees
-        Core.transpose(mRgba, mRgbaT);
+        Core.transpose(mRgba,mRgbaT);
         Imgproc.resize(mRgbaT, mRgbaF, mRgbaF.size(), 0,0, 0);
         Core.flip(mRgbaF, mRgba, 1 );
 
+        detectObject();
+
         return mRgba;
     }
+
+
 
     public void onDestroy() {
         super.onDestroy();
         if (mOpenCvCameraView != null)
             mOpenCvCameraView.disableView();
+    }
+
+    private void detectObject(){
+
+
     }
 }
